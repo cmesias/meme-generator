@@ -1,0 +1,21 @@
+// how to center text that is position absolute?
+- https://stackoverflow.com/questions/18147642/css-centering-absolute-positioned-text-inside-relative-parent
+
+// cool shadows
+- https://getcssscan.com/css-box-shadow-examples
+- https://www.massmediums.com/blog/134-create-great-looking-pure-css-text-shadows.html
+
+// gradients
+- https://cssgradient.io/gradient-backgrounds/
+
+// scroll to bottom of page
+- https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
+
+// scroll margin
+- https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-top
+
+// for each
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+
+// remove image on click
+- https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
