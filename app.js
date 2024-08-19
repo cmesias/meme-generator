@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const submitBtn         = document.querySelector("#submit-btn")
     const mainContainer     = document.querySelector(".main-container"); // get reference of main-container
 
-
     // generate random number
     function getRandomInt(max) {
         return Math.floor(Math.random() * max);
@@ -121,6 +120,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // scroll to last child of main-container
         mainContainer.lastChild.scrollIntoView({ behavior: "smooth", block: "start" });
+
+        // check height of main container, change footer behavior if height greater than 16px
+
     });
 
     // Remove image on click

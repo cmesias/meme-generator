@@ -5,6 +5,11 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+body {
+    height: 100vh;
+    background-color: #0093E9;
+}
+
 a {
     text-decoration: none;
     color: green;
@@ -16,11 +21,6 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-}
-
-body {
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
 
 h1 {
@@ -85,7 +85,6 @@ h1 {
     position: relative;
     text-align: center;
     color: black;
-    /* border: 1px blue solid; */
     padding: 8px;
 }
 
@@ -95,8 +94,8 @@ h1 {
     color: white;
     
     text-shadow: 2px 2px 5px rgba(0,0,0,0.95);   /* text shadow */
-    /* border: 1px greenyellow solid; */
     margin-top: 32px;
+    margin-bottom: 100px;
 
     /* if scrolling to this, it will add a margin on top of 60px */
     scroll-margin-top: 300px;        
@@ -117,7 +116,6 @@ h1 {
     top: 0;
     font-size: 2rem;
     text-align: center;
-    /* border: 1px rgb(0, 0, 0) solid; */
 }
 
 .meme .bottom-text {
@@ -127,10 +125,13 @@ h1 {
     bottom: 0;
     font-size: 2rem;
     text-align: center;
-    /* border: 1px rgb(0, 0, 0) solid; */
 }
 
-footer {
-    margin-top: 500px;
+/* This will be true if height of main container if greater than 16 */
+.footing {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     background-color: lightgray;
+    text-align: center;
 }
