@@ -113,6 +113,11 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
+.meme img:hover {
+    cursor: pointer;
+    border: 15px solid red;
+}
+
 .meme .top-text {
     padding-top: 16px;
     position: absolute;

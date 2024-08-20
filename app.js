@@ -1,3 +1,6 @@
+// Title: Meme Generator
+// Author: Carl Mesias
+
 document.addEventListener('DOMContentLoaded', function() {
    
     const imageInput        = document.querySelector("#image-input");
@@ -57,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         img.width = "512";
 
         // add random border to img
-        img.style.border = "5px solid " + randColor();
+        //img.style.border = "1px solid " + randColor();
 
         // add img new div
         div.append(img);
@@ -120,8 +123,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // scroll to last child of main-container
         mainContainer.lastChild.scrollIntoView({ behavior: "smooth", block: "start" });
-
-        // check height of main container, change footer behavior if height greater than 16px
 
     });
 
